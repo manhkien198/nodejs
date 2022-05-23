@@ -1,0 +1,24 @@
+{
+  "name": "first-nodejs",
+  "version": "1.0.0",
+  "description": "learn how to use nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js & npm run watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node-sass --watch src/resources/scss/ -o src/public/css/"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "kienpm",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
